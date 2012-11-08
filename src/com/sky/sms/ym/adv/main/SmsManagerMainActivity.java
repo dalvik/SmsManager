@@ -53,6 +53,7 @@ import android.widget.ViewFlipper;
 import com.sky.sms.ym.adv.dao.MyMessageDao;
 import com.sky.sms.ym.adv.domain.DataException;
 import com.sky.sms.ym.adv.domain.MyMessage;
+import com.sky.sms.ym.adv.engine.UpdateManager;
 import com.sky.sms.ym.adv.service.SendEmailThread;
 import com.sky.sms.ym.adv.utils.DaoFactory;
 import com.sky.sms.ym.adv.utils.DateUtil;
@@ -309,6 +310,9 @@ public class SmsManagerMainActivity extends ListActivity implements  OnCreateCon
 		listView.setAdapter(myListViewAdapter);
 		listView.setOnItemLongClickListener(listItemLongClick);
 		listView.setOnCreateContextMenuListener(this);
+		//检查新版本
+        UpdateManager.getUpdateManager().checkAppUpdate(this, false);
+       
 	}
 	
 	/**
