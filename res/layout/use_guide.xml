@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView android:id="@+id/ScrollView01" 
+ 	xmlns:umadsdk="http://schemas.android.com/apk/res/com.sky.sms.ym.adv.main"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+     
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	    
+	    <TextView android:id="@+id/use_guide"
+	   		android:layout_width="fill_parent" 
+	   		android:paddingTop="10dip"
+	    	android:layout_height="fill_parent"
+	    	android:textSize="20dip"
+	    	android:textColor="@color/blue"
+	    	android:text="@string/use_guide_header"/>
+	    
+	    <TextView android:id="@+id/use_guide_body_index"
+	   		android:layout_width="fill_parent" 
+	    	android:layout_height="fill_parent"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="13dip"
+	    	android:paddingRight="13dip"
+	    	android:text="@string/user_guide_body_index"/>
+	    	
+	    <!-- 帮助目录 -->	
+	    <TextView android:id="@+id/user_guide_help_directory"
+	   		android:layout_width="fill_parent" 
+	    	android:layout_height="fill_parent"
+	    	android:textSize="20dip"
+	    	android:textColor="@color/blue"
+	    	android:text="@string/user_guide_help_directory"/>
+	    	
+	    <!-- Ⅰ、功能简介 -->	
+	    <TextView android:id="@+id/user_guide_help_content_function_notes_title"
+	   		android:layout_width="fill_parent" 
+	    	android:layout_height="fill_parent"
+	    	android:textSize="20dip"
+	    	android:paddingLeft="5dip"
+	    	android:paddingRight="5dip"
+	    	android:textColor="@color/blue"
+	    	android:text="@string/user_guide_help_content_function_notes_title"/>
+	     
+	    <TextView android:id="@+id/user_guide_help_content_function_notes_explication"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="15dip"
+	    	android:paddingRight="15dip"
+	    	android:text="@string/user_guide_help_content_function_notes_explication"/>
+	    	
+	    <TextView android:id="@+id/user_guide_help_content_function_notes_content"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="20dip"
+	    	android:paddingRight="20dip"
+	    	android:text="@string/user_guide_help_content_function_notes_content"/>
+	     
+	    <TextView android:id="@+id/user_guide_help_content_unique"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/red"
+	    	android:paddingLeft="20dip"
+	    	android:paddingRight="20dip"
+	    	android:text="@string/user_guide_help_content_unique"/>
+	    		
+	   <!-- Ⅱ、使用说明--> 
+	   	<!-- 用户登录 -->
+	    <TextView android:id="@+id/user_guide_help_content_function_explication_title"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textSize="20dip"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="5dip"
+	    	android:paddingRight="5dip"
+	    	android:text="@string/user_guide_help_content_function_explication_title"/>
+	    
+	    <TextView android:id="@+id/user_guide_help_content_function_explication_login"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="15dip"
+	    	android:paddingRight="15dip"
+	    	android:text="@string/user_guide_help_content_function_explication_login"/>
+		 
+		<TextView android:id="@+id/user_guide_help_content_function_explication_login_content"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="20dip"
+	    	android:paddingRight="20dip"
+	    	android:text="@string/user_guide_help_content_function_explication_login_content"/>
+		
+	   <!-- 全选/反选 -->
+	    <TextView android:id="@+id/user_guide_help_content_function_explication_select"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="15dip"
+	    	android:paddingRight="15dip"
+	    	android:text="@string/user_guide_help_content_function_explication_select"/>
+		 
+		<TextView android:id="@+id/user_guide_help_content_function_explication_select_content"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="20dip"
+	    	android:paddingRight="20dip"
+	    	android:text="@string/user_guide_help_content_function_explication_select_content"/>
+	    	
+	     <!-- 同步 -->
+	    <TextView android:id="@+id/user_guide_help_content_function_explication_backup"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="15dip"
+	    	android:paddingRight="15dip"
+	    	android:text="@string/user_guide_help_content_function_explication_backup"/>
+		 
+		<TextView android:id="@+id/user_guide_help_content_function_explication_backup_content"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="20dip"
+	    	android:paddingRight="20dip"
+	    	android:text="@string/user_guide_help_content_function_explication_backup_content"/>
+	    	
+		<!-- 删除 -->
+	    <TextView android:id="@+id/user_guide_help_content_function_explication_delete"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="15dip"
+	    	android:paddingRight="15dip"
+	    	android:text="@string/user_guide_help_content_function_explication_delete"/>
+		 
+		<TextView android:id="@+id/user_guide_help_content_function_explication_delete_content"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="20dip"
+	    	android:paddingRight="20dip"
+	    	android:text="@string/user_guide_help_content_function_explication_delete_content"/>
+	    
+	    <!-- 首选项 -->
+	    <TextView android:id="@+id/user_guide_help_content_function_explication_preference"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="15dip"
+	    	android:paddingRight="15dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference"/>
+		
+		<!--	㈠、个人设置 -->
+		<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_one"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="20dip"
+	    	android:paddingRight="20dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_one"/>
+	    
+	    <!--	a、信息过滤 -->
+	   	<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_one_sms_filt"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="30dip"
+	    	android:paddingRight="30dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_one_sms_filt"/>
+	   
+	   	<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_one_sms_filt_content"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="30dip"
+	    	android:paddingRight="30dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_one_sms_filt_content"/>
+	   
+	    <!--	b、开机启动 -->
+	   	<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_one_autostart"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="30dip"
+	    	android:paddingRight="30dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_one_autostart"/>
+	   
+	   	<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_one_autostart_content"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="30dip"
+	    	android:paddingRight="30dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_one_autostart_content"/>
+	  
+	    <!--	c、更改密码  -->
+	   	<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_one_changepwd"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="30dip"
+	    	android:paddingRight="30dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_one_changepwd"/>
+	   
+	   	<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_one_changepwd_content"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="30dip"
+	    	android:paddingRight="30dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_one_changepwd_content"/>
+	   
+	    <!--	d、刷新  -->
+	   	<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_one_refresh"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="30dip"
+	    	android:paddingRight="30dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_one_refresh"/>
+	   
+	   	<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_one_refresh_content"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="30dip"
+	    	android:paddingRight="30dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_one_refresh_content"/>
+	   
+	   <!--	㈡、同步设置 -->
+	   <TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_two"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="20dip"
+	    	android:paddingRight="20dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_two"/>
+	   
+	    <!--	a、邮件服务设置 -->
+	   	<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_sendemailset"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="30dip"
+	    	android:paddingRight="30dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_sendemailset"/>
+	    		
+	   	<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_sendemailset_content"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="30dip"
+	    	android:paddingRight="30dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_sendemailset_content"/>
+	    		
+	    <!--	b、邮件接收设置 -->
+	   	<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_receiveemailset"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="30dip"
+	    	android:paddingRight="30dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_receiveemailset"/>
+	    		
+	   	<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_receiveemailset_content"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="30dip"
+	    	android:paddingRight="30dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_receiveemailset_content"/>
+	    		
+	    <!--	c、帮助 -->
+	   	<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_help"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="30dip"
+	    	android:paddingRight="30dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_help"/>
+	    		
+	   	<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_help_content"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="30dip"
+	    	android:paddingRight="30dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_help_content"/>
+	    		
+	    <!--	d、退出 -->
+	   	<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_exit"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="30dip"
+	    	android:paddingRight="30dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_exit"/>
+	    		
+	   	<TextView android:id="@+id/user_guide_help_content_function_explication_preference_content_exit_content"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="30dip"
+	    	android:paddingRight="30dip"
+	    	android:text="@string/user_guide_help_content_function_explication_preference_content_exit_content"/>
+	    		
+	   <!-- Ⅲ、语言支持--> 
+	   <TextView android:id="@+id/user_guide_help_language_type_title"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textSize="20dip"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="5dip"
+	    	android:paddingRight="5dip"
+	    	android:text="@string/user_guide_help_language_type_title"/>
+	    
+	   <TextView android:id="@+id/user_guide_help_language_type_content"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="15dip"
+	    	android:paddingRight="15dip"
+	    	android:text="@string/user_guide_help_language_type_content"/>
+		
+	   <!-- iV 关于信息卫士--> 
+	   <TextView android:id="@+id/user_guide_help_about_me"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textSize="20dip"
+	    	android:textColor="@color/blue"
+	    	android:paddingLeft="5dip"
+	    	android:paddingRight="5dip"
+	    	android:text="@string/user_guide_help_about_me"/>
+	    	
+	  <TextView android:id="@+id/user_guide_help_about_me_content"
+	   		android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:paddingLeft="15dip"
+	    	android:paddingRight="15dip"
+	    	android:autoLink="all"
+	    	android:text="@string/user_guide_help_about_me_content"/>
+	
+	   <!-- V --> 
+	   <TextView 
+	   		android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="@color/black"
+	    	android:gravity="center"
+	    	android:text="@string/user_guide_help_copyright"/>
+	    
+	   <net.youmi.android.AdView
+		   android:id="@+id/adView"
+		   android:layout_width="fill_parent"  
+		   android:layout_height="wrap_content"
+		   umadsdk:textColor="#ffffff" 
+		   umadsdk:backgroundTransparent="155"
+		   umadsdk:backgroundColor="#808080"/> 
+	   
+	</LinearLayout>
+
+</ScrollView>
+

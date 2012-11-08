@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+	xmlns:umadsdk="http://schemas.android.com/apk/res/com.sky.sms.ym.adv.main"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+	
+	  <net.youmi.android.AdView
+		   android:id="@+id/adView"
+		   android:layout_width="fill_parent"  
+		   android:layout_height="wrap_content"
+		   umadsdk:textColor="#ffffff" 
+		   umadsdk:backgroundTransparent="155"
+		   umadsdk:backgroundColor="#808080"/> 
+	   
+	    <TextView
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:text="SMTP server"
+	        android:gravity="left"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	           
+	           
+	    <EditText android:id="@+id/smtpServer"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:inputType="textEmailAddress"
+	        android:scrollHorizontally="true"
+	        android:capitalize="none"
+	        android:gravity="fill_horizontal"
+	        android:singleLine="true"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+	    <TextView
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="port"
+	        android:gravity="left"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	           
+	    <EditText
+	        android:id="@+id/sendEmailPort"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:scrollHorizontally="true"
+	        android:inputType="number"
+	        android:capitalize="none"
+	        android:gravity="fill_horizontal"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+	    <TextView
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="security type"
+	        android:gravity="left"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	           
+	    <Spinner android:id="@+id/securityType"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:scrollHorizontally="true"
+	        android:capitalize="none"
+	        android:gravity="fill_horizontal"
+	        android:entries="@array/security_type_array"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+	    <TextView
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="@string/user_name_str"
+	        android:gravity="left"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	           
+	    <EditText
+	        android:id="@+id/sendEmailUserName"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:scrollHorizontally="true"
+	        android:capitalize="none"
+	        android:gravity="fill_horizontal"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+	    <TextView
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="@string/user_password_str"
+	        android:gravity="left"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	           
+	    <EditText android:id="@+id/sendUserPassword"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:password="true"
+	        android:scrollHorizontally="true"
+	        android:capitalize="none"
+	        android:gravity="fill_horizontal"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	       
+	     <ImageButton android:id="@+id/validServerButton"
+	     	android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_marginRight="10dip"
+	        android:src="@drawable/next_step"
+	        />
+	</LinearLayout>
+</ScrollView>

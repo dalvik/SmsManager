@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- 菜单资源 -->
+    <string name="hello">Hello World!</string>
+    <string name="app_name">情報ガーディアン</string>
+    <string name="dialog_ok">確認</string>
+    
+    <!-- 用户登录 -->
+    <string name="login_title_str">ログイン</string>
+    <string name="login_message">サインインして待ってくださいです...</string>
+    <string name="login_dialog_str">ログインボックス</string>
+    <string name="login__str">ログイン</string>
+    <string name="login__notify_str">ログインプロンプト</string>
+    <string name="cancle_login__str">キャンセル</string>
+    <string name="login__notify_message_str">これは、詳細を見るにはログインする必要があります</string>
+   <string name="input_password">するパスワード :</string>
+    <string name="repeat_input_password">重複パスワード ：</string>
+    <string name="password_ret_confirm_str">確認</string>
+    <string name="password_ret_cancle_str">キャンセル</string>
+    
+    <!--  新增 -->
+    <string name="server_starting">サービスが開始されて</string>
+    <string name="server_running">サービスが実行されている</string>
+    <string name="down_load_title">ダウンロ—ドせいしきはんぽん:</string>
+    <string name="down_load_button">分かる </string>
+    <string name="down_load_professional_edition">
+    	http://dev.10086.cn/oms/apdownloadResource.action?resourceId=10943579&amp;catalogId=21
+    </string>
+    
+    <!-- 个人设置 -->
+    <string name="person_setting_str">個人設定</string>
+    <string name="password_reset">パスワードのリセット</string>
+    <string name="password_reset_ok">おめでとう！パスワードのリセット成功！</string>
+    <string name="password_is_null">すみません！パスワードは空にすることはできない！</string>
+    <string name="password_not_equal">すみません！二つのパスワードの輸入は矛盾している</string>
+    <string name="password_set_ok">パスワードが設置されていった覚えてください！</string>
+    
+    <string name="auto_start">ブート</string>
+    <string name="not_allow_auto_start">いいえ</string>
+    <string name="allow_auto_start">はい</string>
+    <string name="system_filt_set">フィルタの設定</string>
+    <string name="sms_sycn_refresh">リフレッシュ</string>
+    
+    <!-- 过滤设置 -->
+    <string name="sms_filt_all">ブロック番号はなくて、クリックと追加してください</string>
+    <string name="man_create_filt">手動で作成する</string>
+	    <string name="input_filt_tel_num_title">フィルタリスト</string>
+	    <string name="input_filt_tel_num_str">電話番号</string>
+	    <string name="input_filt_tel_cancle_button_str">キャンセル</string>
+	    <string name="input_filt_num_ok_button_str">保存</string>
+	    <string name="input_filt_num_is_null">電話番号は仕様を満たしていない</string>
+    <string name="import_filt">インポート</string>
+    	<string name="import_filt_from_contacts">連絡先から番号を選択</string>
+    	<string name="constacts_no_content">連絡先中なんでもない</string>
+    	<string name="agree_import_button_str">インポート</string>
+    		<string name="import_error_str">インポートは失敗しました。もう一度試してみてください</string>
+    	<string name="cancle_import_button_str">キャンセル</string>
+    	
+    	<string name="single_filt_num_modify">変更</string>
+	    	<string name="modify_filt_tel_num_str">電話番号を変更する</string>
+	    	<string name="modify_filt_num_ok_button_str">保存</string>
+	    	<string name="modify_filt_tel_cancle_button_str">キャンセル</string>
+    	
+    	<string name="single_filt_num_delete">削除</string>
+    		<string name="single_filt_num_delete_confirm_title">削除の確認</string>
+    		<string name="single_filt_num_delete_confirm_message">削除してもよろしい？</string>
+    		<string name="single_filt_num_yes_delete">確認</string>
+    		<string name="single_filt_num_delete_success">削除が成功</string>
+    		<string name="single_filt_num_delete_error">削除に失敗しました</string>
+    		<string name="single_filt_num_no_delete">キャンセル</string>
+    <string name="more_delete">複数の削</string>
+        <string name="delete_select_all_str">すべて選択</string>
+        <string name="delete_no_select_all_str">選択をすべて解除</string>
+    	<string name="delete_select_str">削除</string>
+    	<string name="sms_filt_delete_no">ブロックリストは空だ</string>
+    
+    <!-- 同步设置 -->
+    <string name="sync_setting_str">同期の設定</string>
+    <string name="mail_set_str">メール設定</string>
+    <string name="send_mail_server_set_str">メールサービスの設定</string>
+    <string name="user_name_str">ユーザー名</string>
+    <string name="user_password_str">パスワード</string>
+    <string name="receive_mail_set">受信設定を</string>
+    <string name="receive_mail_set_str">電子メールの受信設定</string>
+    <string name="receive_mail_address_error_str">受信電子メールアドレスが正しくない！</string>
+    <string name="system_help_str">ヘルプ</string>
+    <string name="system_exit_str">終了</string>
+    
+    <!-- 正在同步 -->
+    <string name="email_server_not_checked_str">メールサーバーを確認してください！</string>
+    <string name="sms_sync_dialog_title_str">情報の同期</string>
+    <string name="no_select_backup_sms_str">同期メッセージを選択してください</string>
+    <string name="sms_backup_sure_dialog_title_str">同期が認識</string>
+    <string name="sms_backup_dialog_message_str">選択したメッセージをメールボックスに同期する?</string>
+    <string name="sure_sms_backup_str">確認</string>
+    <string name="cancle_sms_backup_str">キャンセル</string>
+    <string name="sms_sync_dialog_message_str">情報を同期、しばらくお待ちください...</string>
+    <string name="sms_sync_error_message_str">申し訳ありませんが、情報の同期に失敗しました</string>
+    <string name="sms_sync_success_message_str">おめでとう！情報の同期成功</string>
+    <string name="sms_to_email_title_str">情報の同期_</string>
+    
+    <!-- 短信删除 -->
+    <string name="sms_delete_confirm">削除するの確認</string>
+    <string name="sms_select_delete_null">削除するメッセージを選択してください</string>
+    <string name="sms_delete_really">確かにそれを削除する？</string>
+    <string name="sms_delete_yes">確認</string>
+    <string name="sms_delete_cancle">キャンセル</string>
+    
+     <!-- 短信阅读 -->
+     <string name="sms_detail_dialog_title_str">情報の詳細：</string>
+     <string name="sms_sender_str">名前：</string>
+     <string name="select_backup_sms_come_from_str">から：</string>
+     <string name="sms_send_time_str">時間：</string>
+     <string name="sms_send_content_str">内容：</string>
+     <string name="sms_reader_confirm_str">確認</string>
+      
+      
+    <!-- 底部菜单 -->
+    <string name="bottom_select_menu_str">選択/解除</string>
+    <string name="bottom_backup_menu_str">同期</string>
+    <string name="bottom_delete_menu_str">削除</string>
+    <string name="bottom_preference_menu_str">優先設定</string>
+       
+    <!-- 长按事件菜单 -->
+    <string name="message_copy">同期</string>
+    <string name="message_del_sucess_str">SMSが削除される</string>
+    <string name="message_del_fail_str">メッセージの削除に失敗しました</string>
+    <string name="message_read">読む</string>
+    <string name="message_recovery">復元</string>
+    <string name="message_recovery_dialog_confirm_title_str">復旧が確認</string>
+    <string name="message_recovery_confirm_message_str">復元を確認？</string>
+    <string name="message_recovery_confirm_str">確認</string>
+    <string name="message_recovery_cancle_str">キャンセル</string>
+    <string name="message_recovery_success_str">復旧成功</string>
+    <string name="message_recovery_error_str">復元に失敗した</string>
+    <string name="message_del">削除</string>
+    
+    <!-- 测试邮件服务器 -->
+    <string name="email_connnect_test_str">メールサーバをテストしている、しばらくお待ちください...</string>
+    <string name="email_connnect_test_str_success">おめでとう！テスト！</string>
+    <string name="email_connnect_test_error">テストに合格しなかった、ごめんなさい！もう一度やり直してください</string>
+    <string name="email_connnect_address_error">申し訳ありませんが、間違ったアドレスやパスワード</string>
+    <string name="email_connnect_cancling_str">キャンセル...</string>
+    <string name="email_connnect_cancle_button_str">キャンセル</string>
+    <string name="email_connnect_ok_button_str">確認</string>
+
+	<!-- 提示信息 -->
+	<string name="input_email_server_isnull">メールサーバーのアドレスが空にすることはできない</string>  
+	<string name="input_email_port_isnull">メールサーバーのポートが空にすることはできない</string>   
+	<string name="input_email_isnull">ユーザのEメールアドレスが空だ</string>   
+	<string name="input_isnot_email">ユーザーの電子メールアドレスが有効ではない</string>   
+	<string name="load_error">読み込みエラー</string>
+	<string name="system_run_error">実行エラーで強制終了</string>
+	
+	<!-- 信息页面显示 -->
+	<string name="contacts_name_isnot_exists_str">匿名</string>   
+	<string name="sms_sync_yes_str">はい</string>   
+	<string name="sms_sync_no_str">いいえ</string>  
+	<string name="no_sms_display">いまテキストメッセージを受信することはない</string>  
+	
+	<!-- 退出系统 -->
+	<string name="exit_system_dialog_confirm_str">確認終了</string>
+	<string name="exit_system_confirm_str">終了は確認？</string>
+	<string name="confirm_exit_system_str">確認</string>
+	<string name="cancle_exit_system_str">キャンセル</string>
+	
+    <!-- 使用说明 -->
+    <string name="use_guide_title">Instructions of The Message Guarder</string>
+    <string name="use_guide_header">Welcome to the Message Guarder Ad-V11.5.102</string>
+    <string name="user_guide_body_index">
+          \nAre you distressed by the fact that your personal privacy is not respected by others?
+          \nAre you fearful and anxious about his/her short massages are seen by her/him?
+          \nAre you worrying about your short massages will give out the important information when it is not at hand?
+          \nAre you feeling regretful that you have to delete the massages that have been kept for such a long time only because of the small storage of the phone?
+          \n\n\tAll the questions above will be solved by this mobile phone messages guardian, and all the dangers of the leakage of information and privacy will be kept out of the “door”. This tool will make you have less pressure and worries and more comfort and happiness in your work, study and daily life.
+    </string>
+    <string name="user_guide_help_directory">\nHelp Contents:</string>
+	<string name="user_guide_help_content_function_notes_title">\nⅠ、Simple Introduction of its Functions</string>
+	<string name="user_guide_help_content_function_notes_explication">\n\tThis application is mainly to protect the privacy and information of the users. So:</string>
+	<string name="user_guide_help_content_function_notes_content">
+		  \tA. 	First, you should set the password successfully before you can continue to carry out other operations.
+		  \n\tB. You can manually add the phone number to intercept its text messages, you can also import from contacts in batch.
+		  \n\tC. You can read the messages, recovery them to the inbox and delete the messages which have been blocked.
+		  \n\tD. You can also synchronize the massages, which have been intercepted, to the mailbox you specify to make long-term backup.
+		  \n\tE. You can also set e-mail address used to receive backup massages.
+		  \n\tF. You can also set the boot of the application.
+		  \n\tG. You can also modify the password.
+	</string>
+	<string name="user_guide_help_content_unique">\tH. Using your mailbox to store your personal information and short messages is the major highlight of this application</string>
+	<string name="user_guide_help_content_function_explication_title">\nⅡ、Directions for Use</string>
+	<string name="user_guide_help_content_function_explication_login">\n1、User Login</string>
+	<string name="user_guide_help_content_function_explication_login_content">
+		  \n\tWhen first run after the installation, the system will prompt the user to input a password and confirm the password. After the completed input and be checked by the system, it will jump to the successful login interface, and then the user can continue to do the system settings and check the information and a series of other operations. Please be sure to remember your password. This is your only logon credentials.
+    </string>
+    <string name="user_guide_help_content_function_explication_select">\n2、Select All/Deselect</string>
+	<string name="user_guide_help_content_function_explication_select_content">
+		\n\tSelect All/Deselect is the shortcuts set for your convenience during the batch synchronization or delete, to help you save time and raise the efficiency.
+	</string>
+	<string name="user_guide_help_content_function_explication_backup">\n3、Synchronization</string>
+	<string name="user_guide_help_content_function_explication_backup_content">	  
+		 \n\tSynchronization is to synchronize the information you choose to your pre-set receiving e-mail. If you don’t set the receiving email, the system will automatically select your tested email address as the email address to receive the synchronized messages. Note that before the synchronization, you have to make sure that the system has passed the test of the mail service; otherwise it is impossible to carry out the synchronization operation. About how to test the e-mail, you can refer to the instructions of the mail server test in the following Preferences.
+	</string>
+	<string name="user_guide_help_content_function_explication_delete">\n4、Delete</string>	           
+	<string name="user_guide_help_content_function_explication_delete_content">\n\tDelete operation is to remove the intercepted information from the list.</string>
+	<string name="user_guide_help_content_function_explication_preference">\n5、Preferences</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one">\n㈠、Personal Settings</string>	  
+	<string name="user_guide_help_content_function_explication_preference_content_one_sms_filt">\na、Message Filtering</string>
+    <string name="user_guide_help_content_function_explication_preference_content_one_sms_filt_content">	
+		   	\n\tIn this operation, you can add the specific phone number as a condition of filtering messages, and you can also delete this number. If you do not add any numbers, then the message interception will not be done.
+    </string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_autostart">\nb、Boot</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_autostart_content">
+			\n\tOpening boot can eliminate the trouble of manually starting the system each time, and it can also in time to protect your personal privacy and information security.
+	</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_changepwd">\nc、Change Password</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_changepwd_content">
+			\n\tAfter the successful user logon, you can change your password any time you want to make the operation convenient.
+	</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_refresh">\nd、Refresh</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_refresh_content">
+		   	\n\tThis application has an automatic refresh feature. If the user wants to check the messages blocked by the system in time, you can take the refresh operation.
+	</string>
+	<string name="user_guide_help_content_function_explication_preference_content_two">\n㈡、Synchronization Settings</string>
+	<string name="user_guide_help_content_function_explication_preference_content_sendemailset">\na、Mail Service Setting</string>
+	<string name="user_guide_help_content_function_explication_preference_content_sendemailset_content">
+		   	\n\tMail service setting is an important part of this application. You should fill in the correct information of the mail service and pass the verification of the mail server. Only after that the message backup will continue.
+		   	\n\tThis application mainly adopts the Simple Mail Transfer Protocol, so you should:
+		   	\n\tFirst, fill in the SMTP server address correctly;
+		   	\n\tThen, input the mail server port number;
+		   	\n\tNext, select the security type;
+		   	\n\tAgain, fill in the tested e-mail account and password;
+		   	\n\tFinally, click the Next button to verify the correctness.
+		   	\n\tBy now, you have completed the e-mail service test.
+		   	\n\tIf the system prompts you have passed the test, then you can start the operation of synchronizing the messages to the email. Otherwise, you need to check the correctness of the input information and re-test (Note: to ensure a good network connectivity of the mobile phone).
+			\n\nHere, let’s take the Google’s mail service test as an example: 
+			\n\n⑴、Input the address of the sending mail server of Google: smtp.gmail.com
+			\n⑵、Filling the port number of the sending mail server of Google: 465
+			\n⑶、Select the Security type: SSL
+			\n⑷、Input the email account: ***gmail.com
+			\n⑸、Input the mailbox password: *********
+			\n⑹、Click Next
+			\n⑺、ongratulations! Tested
+	 </string>
+	 <string name="user_guide_help_content_function_explication_preference_content_receiveemailset">\nb、Receiving E-mail Settings</string>
+	 <string name="user_guide_help_content_function_explication_preference_content_receiveemailset_content">
+	 	   	\n\tHere requires you correctly fill in the email address that receives the backup messages. If you do not fill in, the system will default to choose your tested e-mail address as the address to receive the backup messages.
+	 </string>
+	 <string name="user_guide_help_content_function_explication_preference_content_help">\nc、Helps</string>
+	 <string name="user_guide_help_content_function_explication_preference_content_help_content">
+	 		\n\tIf you find or have questions when you use this application, you can refer to the Message guarder instructions, or you can also reflect the problems to the author according to the contact ways in the bottom of this page. Thank you!
+	 </string>
+	 <string name="user_guide_help_content_function_explication_preference_content_exit">\nd、Exit</string>
+	 <string name="user_guide_help_content_function_explication_preference_content_exit_content">
+		   	\n\tWhen you do not need to intercept messages, you can exit the system quickly and directly, freeing up the resources that the system has occupied.
+	 </string>
+	 <string name="user_guide_help_language_type_title">\nⅢ、Language Support</string>
+	 <string name="user_guide_help_language_type_content">\nThis application supports Chinese, English, Japanese and other languages.</string>
+	 <string name="user_guide_help_about_me">\nⅣ、About The Message Guarder</string>  	
+	 <string name="user_guide_help_about_me_content">
+		\nMessage Fuarder For Android Ad-V11.5.102\n
+		\nBlog:http://blog.sina.com/dalvik\n
+		\nMSN:dalvik@live.cn\n
+		\nEmail:steersgman@gmail.com\n
+		\nQ Q：513518064
+	</string>
+	<string name="user_guide_help_copyright">\n\nCopyRight (c) Love All Rights Reserved</string>
+</resources>

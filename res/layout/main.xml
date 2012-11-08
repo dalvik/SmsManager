@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:umadsdk="http://schemas.android.com/apk/res/com.sky.sms.ym.adv.main"
+	android:id="@+id/RelativeLayout_catalog" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<net.youmi.android.AdView
+	   android:id="@+id/adView"
+	   android:layout_width="fill_parent"  
+	   android:layout_height="wrap_content"
+	   umadsdk:textColor="#ffffff" 
+	   umadsdk:backgroundTransparent="155"
+	   umadsdk:backgroundColor="#808080" 
+	   /> 
+	
+	<ListView android:id="@+id/android:list"
+		android:layout_below="@+id/adView"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:background="@color/lightdark"
+		android:cacheColorHint="@color/lightdark"
+		android:layout_marginBottom="56px"/>
+	
+	<GridView android:id="@+id/gridView_toolbar"
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true"/>
+	
+    <TextView android:id="@id/android:empty"  
+    	 android:layout_below="@+id/adView"
+         android:layout_width="fill_parent"  
+         android:layout_height="wrap_content"  
+         android:textColor="@color/red"
+         android:textSize="20dip"
+         android:gravity="center"
+         android:background="@drawable/menu_bg"
+         android:text="@string/no_sms_display"/>  
+</RelativeLayout>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- 菜单资源 -->
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Message guarder</string>
+    <string name="dialog_ok">Confirm</string>
+    
+    <!-- 用户登录 -->
+    <string name="login_title_str">Login</string>
+    <string name="login_message">Logging for you, Please wait...</string>
+    <string name="login_dialog_str">Login box</string>
+    <string name="login__str">Login</string>
+    <string name="login__notify_str">Login Prompt</string>
+    <string name="cancle_login__str">Cancel</string>
+    <string name="login__notify_message_str">Login to check the details</string>
+    <string name="input_password">Please input password</string>
+    <string name="repeat_input_password">Please repead password</string>
+    <string name="password_ret_confirm_str">OK</string>
+    <string name="password_ret_cancle_str">Cancel</string>
+    
+    <!--  新增 -->
+    <string name="server_starting">Service is being started now</string>
+    <string name="server_running">Service is Running</string>
+    <string name="down_load_title">DownLoad Professional Edition:</string>
+    <string name="down_load_button">I Know</string>
+    <string name="down_load_professional_edition">
+    	http://dev.10086.cn/oms/apdownloadResource.action?resourceId=10943579&amp;catalogId=21
+    </string>
+    
+    <!-- 个人设置 -->
+    <string name="person_setting_str">Personal Settings</string>
+    <string name="password_reset">Orgacle</string>
+    <string name="password_reset_ok">Congratulations! Password reset success!</string>
+    <string name="password_is_null">Sorry!Password cannot be empty!</string>
+    <string name="password_not_equal">Sorry! The two imported passwords are inconsistent with each other!</string>
+    <string name="password_set_ok">Password set up success, please remember!</string>
+    
+    <string name="auto_start">Boot</string>
+    <string name="not_allow_auto_start">No</string>
+    <string name="allow_auto_start">Yes</string>
+    <string name="system_filt_set">Filters</string>
+    <string name="sms_sycn_refresh">Refresh</string>
+    
+    <!-- 过滤设置 -->
+    <string name="sms_filt_all">No blocked phone numbers.Click and add</string>
+    <string name="man_create_filt">Manually Create</string>
+	    <string name="input_filt_tel_num_title">Filter List</string>
+	    <string name="input_filt_tel_num_str">Phone Numbers</string>
+	    <string name="input_filt_tel_cancle_button_str">Cancel</string>
+	    <string name="input_filt_num_ok_button_str">Save</string>
+	    <string name="input_filt_num_is_null">Phone numbers do not meet the specifications</string>
+    <string name="import_filt">Import...</string>
+    	<string name="import_filt_from_contacts">Select phone numbers from the contact</string>
+    	<string name="constacts_no_content">No member in the contact</string>
+    	<string name="agree_import_button_str">Import</string>
+    		<string name="import_error_str">Failed to lead in, Please try again</string>
+    	<string name="cancle_import_button_str">Cancel</string>
+    	
+    	<string name="single_filt_num_modify">Modify</string>
+	    	<string name="modify_filt_tel_num_str">Modify the phone number</string>
+	    	<string name="modify_filt_num_ok_button_str">Save</string>
+	    	<string name="modify_filt_tel_cancle_button_str">Cancel</string>
+    	
+    	<string name="single_filt_num_delete">Delete</string>
+    		<string name="single_filt_num_delete_confirm_title">Confirm to delete</string>
+    		<string name="single_filt_num_delete_confirm_message">Are you sure to delete?</string>
+    		<string name="single_filt_num_yes_delete">OK</string>
+    		<string name="single_filt_num_delete_success">Delete Success</string>
+    		<string name="single_filt_num_delete_error">Delete Failed</string>
+    		<string name="single_filt_num_no_delete">Cancel</string>
+    <string name="more_delete">Delete More</string>
+        <string name="delete_select_all_str">Select All</string>
+        <string name="delete_no_select_all_str">Deselect All</string>
+    	<string name="delete_select_str">Delete</string>
+    	<string name="sms_filt_delete_no">Block list is empty</string>
+    
+    <!-- 同步设置 -->
+    <string name="sync_setting_str">Sync Settings</string>
+    <string name="mail_set_str">Server</string>
+    <string name="send_mail_server_set_str">Mail Send Service Settings</string>
+    <string name="user_name_str">Username</string>
+    <string name="user_password_str">Password</string>
+    <string name="receive_mail_set">Receiving</string>
+    <string name="receive_mail_set_str">Receiving E-mail Settings</string>
+    <string name="receive_mail_address_error_str">Receiving e-mail address is not correct!</string>
+    <string name="system_help_str">Help</string>
+    <string name="system_exit_str">Exit</string>
+    
+    <!-- 正在同步 -->
+    <string name="email_server_not_checked_str">Please verify your mail server, thank you!</string>
+    <string name="sms_sync_dialog_title_str">Message Synchronization</string>
+    <string name="no_select_backup_sms_str">Please select the synchronized messages</string>
+    <string name="sms_backup_sure_dialog_title_str">Are you sure to Synchronize?</string>
+    <string name="sms_backup_dialog_message_str">Synchronize the selected messages to the mailbox?</string>
+    <string name="sure_sms_backup_str">OK</string>
+    <string name="cancle_sms_backup_str">Cancel</string>
+    <string name="sms_sync_dialog_message_str">Synchronizing the messages now,Please wait...</string>
+    <string name="sms_sync_error_message_str">Sorry, Message Synchronization Failed!</string>
+    <string name="sms_sync_success_message_str">Congratulations! Message Synchronization success</string>
+    <string name="sms_to_email_title_str">Message Synchronization_</string>
+    
+    <!-- 短信删除 -->
+    <string name="sms_delete_confirm">Delete Confirmation</string>
+    <string name="sms_select_delete_null">Please select the deleted messages</string>
+    <string name="sms_delete_really">Are you Sure to delete?</string>
+    <string name="sms_delete_yes">OK</string>
+    <string name="sms_delete_cancle">Cancel</string>
+    
+     <!-- 短信阅读 -->
+     <string name="sms_detail_dialog_title_str">Message Details:</string>
+     <string name="sms_sender_str">Name:</string>
+     <string name="select_backup_sms_come_from_str">Phone:</string>
+     <string name="sms_send_time_str">Date:</string>
+     <string name="sms_send_content_str">Content:</string>
+     <string name="sms_reader_confirm_str">OK</string>
+      
+      
+    <!-- 底部菜单 -->
+    <string name="bottom_select_menu_str">All/None</string>
+    <string name="bottom_backup_menu_str">Sync</string>
+    <string name="bottom_delete_menu_str">Delete</string>
+    <string name="bottom_preference_menu_str">Options</string>
+       
+    <!-- 长按事件菜单 -->
+    <string name="message_copy">Sync</string>
+    <string name="message_del_sucess_str">Message is deleted</string>
+    <string name="message_del_fail_str">Failed to delete</string>
+    <string name="message_read">Read</string>
+    <string name="message_recovery">Recovery</string>
+    <string name="message_recovery_dialog_confirm_title_str">Recovery Confirmation</string>
+    <string name="message_recovery_confirm_message_str">Are you sure to do the recovery?</string>
+    <string name="message_recovery_confirm_str">OK</string>
+    <string name="message_recovery_cancle_str">Cancel</string>
+    <string name="message_recovery_success_str">Recovery success</string>
+    <string name="message_recovery_error_str">Recovery failed</string>
+    <string name="message_del">Delete</string>
+    
+    <!-- 测试邮件服务器 -->
+    <string name="email_connnect_test_str">The Email Server is being tested now,Please wait...</string>
+    <string name="email_connnect_test_str_success">Congratulations! Tested</string>
+    <string name="email_connnect_test_error">Sorry, You failed the test! Please try again</string>
+    <string name="email_connnect_address_error">Sorry, Wrong address or password</string>
+    <string name="email_connnect_cancling_str">Canceling...</string>
+    <string name="email_connnect_cancle_button_str">Cancel</string>
+    <string name="email_connnect_ok_button_str">OK</string>
+
+	<!-- 提示信息 -->
+	<string name="input_email_server_isnull">The mail server address cannot be empty</string>  
+	<string name="input_email_port_isnull">The mail server port cannot be empty</string>   
+	<string name="input_email_isnull">The user’s  email address is empty</string>   
+	<string name="input_isnot_email">The user’s email address is not valid</string>   
+	<string name="load_error">Loading Error</string>
+	<string name="system_run_error">Because of the running error, you are forced to exit</string>
+	
+	<!-- 信息页面显示 -->
+	<string name="contacts_name_isnot_exists_str">Anonymous</string>   
+	<string name="sms_sync_yes_str">Yes</string>   
+	<string name="sms_sync_no_str">No</string>  
+	<string name="no_sms_display">No messages for the time being</string>  
+	
+	<!-- 退出系统 -->
+	<string name="exit_system_dialog_confirm_str">Confirm to exit</string>
+	<string name="exit_system_confirm_str">Are you sure to exit?</string>
+	<string name="confirm_exit_system_str">OK</string>
+	<string name="cancle_exit_system_str">Cancel</string>
+	
+    <!-- 使用说明 -->
+    <string name="use_guide_title">Instructions of The Message Guarder</string>
+    <string name="use_guide_header">Welcome to the Message Guarder Ad-V11.5.102</string>
+    <string name="user_guide_body_index">
+          \nAre you distressed by the fact that your personal privacy is not respected by others?
+          \nAre you fearful and anxious about his/her short massages are seen by her/him?
+          \nAre you worrying about your short massages will give out the important information when it is not at hand?
+          \nAre you feeling regretful that you have to delete the massages that have been kept for such a long time only because of the small storage of the phone?
+          \n\n\tAll the questions above will be solved by this mobile phone messages guardian, and all the dangers of the leakage of information and privacy will be kept out of the “door”. This tool will make you have less pressure and worries and more comfort and happiness in your work, study and daily life.
+    </string>
+    <string name="user_guide_help_directory">\nHelp Contents:</string>
+	<string name="user_guide_help_content_function_notes_title">\nⅠ、Simple Introduction of its Functions</string>
+	<string name="user_guide_help_content_function_notes_explication">\n\tThis application is mainly to protect the privacy and information of the users. So:</string>
+	<string name="user_guide_help_content_function_notes_content">
+		  \tA. 	First, you should set the password successfully before you can continue to carry out other operations.
+		  \n\tB. You can manually add the phone number to intercept its text messages, you can also import from contacts in batch.
+		  \n\tC. You can read the messages, recovery them to the inbox and delete the messages which have been blocked.
+		  \n\tD. You can also synchronize the massages, which have been intercepted, to the mailbox you specify to make long-term backup.
+		  \n\tE. You can also set e-mail address used to receive backup massages.
+		  \n\tF. You can also set the boot of the application.
+		  \n\tG. You can also modify the password.
+	</string>
+	<string name="user_guide_help_content_unique">\tH. Using your mailbox to store your personal information and short messages is the major highlight of this application</string>
+	<string name="user_guide_help_content_function_explication_title">\nⅡ、Directions for Use</string>
+	<string name="user_guide_help_content_function_explication_login">\n1、User Login</string>
+	<string name="user_guide_help_content_function_explication_login_content">
+		  \n\tWhen first run after the installation, the system will prompt the user to input a password and confirm the password. After the completed input and be checked by the system, it will jump to the successful login interface, and then the user can continue to do the system settings and check the information and a series of other operations. Please be sure to remember your password. This is your only logon credentials.
+    </string>
+    <string name="user_guide_help_content_function_explication_select">\n2、Select All/Deselect</string>
+	<string name="user_guide_help_content_function_explication_select_content">
+		\n\tSelect All/Deselect is the shortcuts set for your convenience during the batch synchronization or delete, to help you save time and raise the efficiency.
+	</string>
+	<string name="user_guide_help_content_function_explication_backup">\n3、Synchronization</string>
+	<string name="user_guide_help_content_function_explication_backup_content">	  
+		 \n\tSynchronization is to synchronize the information you choose to your pre-set receiving e-mail. If you don’t set the receiving email, the system will automatically select your tested email address as the email address to receive the synchronized messages. Note that before the synchronization, you have to make sure that the system has passed the test of the mail service; otherwise it is impossible to carry out the synchronization operation. About how to test the e-mail, you can refer to the instructions of the mail server test in the following Preferences.
+	</string>
+	<string name="user_guide_help_content_function_explication_delete">\n4、Delete</string>	           
+	<string name="user_guide_help_content_function_explication_delete_content">\n\tDelete operation is to remove the intercepted information from the list.</string>
+	<string name="user_guide_help_content_function_explication_preference">\n5、Preferences</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one">\n㈠、Personal Settings</string>	  
+	<string name="user_guide_help_content_function_explication_preference_content_one_sms_filt">\na、Message Filtering</string>
+    <string name="user_guide_help_content_function_explication_preference_content_one_sms_filt_content">	
+		   	\n\tIn this operation, you can add the specific phone number as a condition of filtering messages, and you can also delete this number. If you do not add any numbers, then the message interception will not be done.
+    </string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_autostart">\nb、Boot</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_autostart_content">
+			\n\tOpening boot can eliminate the trouble of manually starting the system each time, and it can also in time to protect your personal privacy and information security.
+	</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_changepwd">\nc、Change Password</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_changepwd_content">
+			\n\tAfter the successful user logon, you can change your password any time you want to make the operation convenient.
+	</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_refresh">\nd、Refresh</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_refresh_content">
+		   	\n\tThis application has an automatic refresh feature. If the user wants to check the messages blocked by the system in time, you can take the refresh operation.
+	</string>
+	<string name="user_guide_help_content_function_explication_preference_content_two">\n㈡、Synchronization Settings</string>
+	<string name="user_guide_help_content_function_explication_preference_content_sendemailset">\na、Mail Service Setting</string>
+	<string name="user_guide_help_content_function_explication_preference_content_sendemailset_content">
+		   	\n\tMail service setting is an important part of this application. You should fill in the correct information of the mail service and pass the verification of the mail server. Only after that the message backup will continue.
+		   	\n\tThis application mainly adopts the Simple Mail Transfer Protocol, so you should:
+		   	\n\tFirst, fill in the SMTP server address correctly;
+		   	\n\tThen, input the mail server port number;
+		   	\n\tNext, select the security type;
+		   	\n\tAgain, fill in the tested e-mail account and password;
+		   	\n\tFinally, click the Next button to verify the correctness.
+		   	\n\tBy now, you have completed the e-mail service test.
+		   	\n\tIf the system prompts you have passed the test, then you can start the operation of synchronizing the messages to the email. Otherwise, you need to check the correctness of the input information and re-test (Note: to ensure a good network connectivity of the mobile phone).
+			\n\nHere, let’s take the Google’s mail service test as an example: 
+			\n\n⑴、Input the address of the sending mail server of Google: smtp.gmail.com
+			\n⑵、Filling the port number of the sending mail server of Google: 465
+			\n⑶、Select the Security type: SSL
+			\n⑷、Input the email account: ***gmail.com
+			\n⑸、Input the mailbox password: *********
+			\n⑹、Click Next
+			\n⑺、ongratulations! Tested
+	 </string>
+	 <string name="user_guide_help_content_function_explication_preference_content_receiveemailset">\nb、Receiving E-mail Settings</string>
+	 <string name="user_guide_help_content_function_explication_preference_content_receiveemailset_content">
+	 	   	\n\tHere requires you correctly fill in the email address that receives the backup messages. If you do not fill in, the system will default to choose your tested e-mail address as the address to receive the backup messages.
+	 </string>
+	 <string name="user_guide_help_content_function_explication_preference_content_help">\nc、Helps</string>
+	 <string name="user_guide_help_content_function_explication_preference_content_help_content">
+	 		\n\tIf you find or have questions when you use this application, you can refer to the Message guarder instructions, or you can also reflect the problems to the author according to the contact ways in the bottom of this page. Thank you!
+	 </string>
+	 <string name="user_guide_help_content_function_explication_preference_content_exit">\nd、Exit</string>
+	 <string name="user_guide_help_content_function_explication_preference_content_exit_content">
+		   	\n\tWhen you do not need to intercept messages, you can exit the system quickly and directly, freeing up the resources that the system has occupied.
+	 </string>
+	 <string name="user_guide_help_language_type_title">\nⅢ、Language Support</string>
+	 <string name="user_guide_help_language_type_content">\nThis application supports Chinese, English, Japanese and other languages.</string>
+	 <string name="user_guide_help_about_me">\nⅣ、About The Message Guarder</string>  	
+	 <string name="user_guide_help_about_me_content">
+		\nMessage Fuarder For Android Ad-V11.5.102\n
+		\nBlog:http://blog.sina.com/dalvik\n
+		\nMSN:dalvik@live.cn\n
+		\nEmail:steersgman@gmail.com\n
+		\nQ Q：513518064
+	</string>
+	<string name="user_guide_help_copyright">\n\nCopyRight (c) Love All Rights Reserved</string>
+</resources>

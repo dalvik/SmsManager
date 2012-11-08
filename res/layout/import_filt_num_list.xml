@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:umadsdk="http://schemas.android.com/apk/res/com.sky.sms.ym.adv.main"
+	android:id="@+id/RelativeLayout_catalog" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<RelativeLayout android:id="@+id/listFooter"
+		android:layout_alignParentBottom="true" 
+		android:orientation="vertical"
+		android:background="@drawable/jbshape2" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"     
+			android:layout_width="fill_parent"     
+			android:stretchColumns="0,1"
+			android:layout_centerHorizontal="true"
+			android:background="@color/lightdark"
+			android:layout_height="wrap_content"> 
+			
+			<TableRow > 
+	    	   	<Button  android:id="@+id/agree_import_button" 
+					 android:layout_width="wrap_content"  
+		             android:layout_height="wrap_content"
+					 android:text="@string/agree_import_button_str"
+					 android:gravity="center"/>
+	
+		     	<Button  android:id="@+id/cancle_import_button" 
+				     android:layout_width="wrap_content"  
+	                 android:layout_height="wrap_content"
+	                 android:gravity="center"
+				     android:text="@string/cancle_import_button_str"/>
+	
+		      </TableRow> 
+		</TableLayout>
+	</RelativeLayout>
+	
+	<net.youmi.android.AdView
+	   android:id="@+id/adView"
+	   android:layout_width="fill_parent"  
+	   android:layout_height="wrap_content"
+	   umadsdk:textColor="#ffffff" 
+	   umadsdk:backgroundTransparent="155"
+	   umadsdk:backgroundColor="#808080"/> 
+	
+	<ListView android:id="@+id/android:list"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_below="@+id/adView"
+		android:layout_above="@id/listFooter"/>
+	
+    <TextView android:id="@id/android:empty"  
+ 		android:layout_below="@+id/adView"
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:textColor="@color/red"
+        android:textSize="25dip"
+        android:gravity="center"
+        android:text="@string/constacts_no_content"/>  
+</RelativeLayout>

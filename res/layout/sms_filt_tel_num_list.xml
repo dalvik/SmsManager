@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	 	xmlns:umadsdk="http://schemas.android.com/apk/res/com.sky.sms.ym.adv.main"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:paddingBottom="3dip">
+	    
+	<RelativeLayout android:id="@+id/listFooter"
+		android:layout_alignParentBottom="true" 
+		android:background="@drawable/jbshape2" 
+		android:gravity="center_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"     
+			android:layout_height="wrap_content"    
+			android:layout_width="fill_parent" 
+			android:layout_centerHorizontal="true"
+			android:stretchColumns="0,1,2"> 
+			
+			<TableRow> 
+	    	   	<Button  android:id="@+id/manual_create_filt_num" 
+					 android:layout_width="wrap_content"  
+		             android:layout_height="wrap_content"
+					 android:text="@string/man_create_filt"
+					 android:gravity="center"/>
+	
+		     	<Button  android:id="@+id/import_filt_form_contact" 
+				     android:layout_width="wrap_content"  
+	                 android:layout_height="wrap_content"
+	                 android:gravity="center"
+				     android:text="@string/import_filt"/>
+	
+		        <Button android:id="@+id/delete_more_filt_num" 
+		        	  android:layout_width="wrap_content"  
+	                  android:layout_height="wrap_content"
+	                  android:gravity="center"
+		              android:text="@string/more_delete"/>
+		      </TableRow> 
+		      
+		</TableLayout>
+	</RelativeLayout>
+	
+	<net.youmi.android.AdView
+	   android:id="@+id/adView"
+	   android:layout_width="fill_parent"  
+	   android:layout_height="wrap_content"
+	   umadsdk:textColor="#ffffff" 
+	   umadsdk:backgroundTransparent="155"
+	   umadsdk:backgroundColor="#808080" 
+	   /> 
+	   
+	<ListView android:id="@id/android:list"
+		android:layout_below="@+id/adView"
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listFooter"/>  
+  
+    <TextView android:id="@id/android:empty"
+    	 android:layout_below="@+id/adView"
+         android:layout_width="fill_parent"  
+         android:textColor="@color/red"
+         android:gravity="center"
+         android:textSize="20dip"
+         android:layout_height="wrap_content" 
+         android:background="@color/lightdark"
+         android:paddingLeft="30dip"
+         android:text="@string/sms_filt_all"/>  
+</RelativeLayout>

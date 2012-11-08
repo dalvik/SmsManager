@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.sky.sms.ym.adv.main"
+      android:versionCode="1"
+      android:versionName="1.0">
+   
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.READ_SMS"/> 
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/> 
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>  
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".SplashScreen" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:label="@string/app_name" android:configChanges="orientation|keyboardHidden" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+       <!-- 短信监听服务 -->  
+       <service android:enabled="true" android:name="com.sky.sms.adv.service.MonitorSMSServiceice"/>
+    
+       <!-- 接收系统启动完成的通知 -->
+       <receiver
+			android:name="com.sky.sms.adv.service.SystemRebootReceiver"	android:enabled="true">
+			<intent-filter>
+				<action	android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+	   </receiver>
+	   
+       <!-- 接收收到短消息的通知 -->
+       <receiver android:name="com.sky.sms.ym.adv.service.SMSReceiverceiver"	android:enabled="true">
+			<intent-filter android:priority="300"> 
+				<action android:name="android.provider.Telephony.SMS_RECEIVED" />
+			</intent-filter>
+	   </receiver>
+	   
+        <!-- 正确登陆界面 -->
+        <activity android:name=".LoginActivity" android:configChanges="orientation|keyboardHidden"  android:label="@string/app_name"/>
+        
+        <!-- 错误登陆界面 -->
+        <activity android:name=".ErrorLoginActivity" android:label="@string/app_name"/>
+      
+        <!-- 主界面 -->
+        <activity android:name=".SmsManagerMainActivity" android:configChanges="orientation|keyboardHidden" android:launchMode="singleTask" android:label="@string/app_name"/>
+        
+        <!-- 邮件设置界面 -->
+        <activity android:name=".MailSyncSetActivity" android:label="@string/send_mail_server_set_str"/>
+        
+        <!-- 邮件接收设置界面 -->
+        <activity android:name=".EmaiReceiveSetActivity"  android:label="@string/receive_mail_set_str"/>
+    
+        <!-- 邮件测试界面 -->
+        <activity android:name=".EmailConnectTestActivity" android:label="@string/send_mail_server_set_str"/>
+       
+        <!-- 短信过滤界面 -->
+        <activity android:name=".SmsFiltSetActivity" android:configChanges="orientation|keyboardHidden"  android:label="@string/input_filt_tel_num_title"  />
+       
+        <!-- 短信阅读界面 -->
+        <activity android:name=".ReadMessageActivity" android:label="@string/app_name"/>
+        
+        <!-- 使用说明界面 -->
+        <activity android:name=".SMSManagerUseGuide" android:label="@string/use_guide_title"/>
+        
+        <!-- 手工添加过滤的电话号码界面 -->
+        <activity android:name=".InputFiltTelNumActivity" android:label="@string/input_filt_tel_num_title"/>
+       
+        <!-- 修改过滤的电话号码界面 -->
+        <activity android:name=".ModifySmsFiltNumActivity" android:label="@string/single_filt_num_modify"/>
+       
+        <!-- 批量导入电话号码界面 -->
+        <activity android:name=".ImportFiltNumActivity" android:configChanges="orientation|keyboardHidden" android:screenOrientation="portrait" android:label="@string/import_filt_from_contacts"/>
+       
+        <!-- 批量删除电话号码界面 -->
+        <activity android:name=".DeleteFiltNumFiltActivity" android:screenOrientation="portrait" android:label="@string/input_filt_tel_num_title"/>
+       
+       
+        <!-- test --> 
+        <activity android:name=".HandlerTest" android:label="@string/use_guide_title"/>
+        
+         
+        <!-- 短信过滤界面 -->
+        <activity android:name=".ScheduleManageActivity"  android:label="@string/input_filt_tel_num_title"  />
+      
+        <activity android:name="net.youmi.android.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation"/> 
+        
+     </application>
+    
+    <uses-sdk android:minSdkVersion="5" />
+    
+    
+</manifest> 

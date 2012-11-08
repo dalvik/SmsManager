@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:umadsdk="http://schemas.android.com/apk/res/com.sky.sms.ym.adv.main"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/system_splash"
+    >
+   <net.youmi.android.AdView
+   android:id="@+id/adView"  
+   android:layout_width="fill_parent"  
+   android:layout_height="wrap_content"
+   umadsdk:textColor="#ffffff"    
+   umadsdk:backgroundColor="#4076AA"
+   umadsdk:backgroundTransparent="255"
+   /> 
+</LinearLayout>
