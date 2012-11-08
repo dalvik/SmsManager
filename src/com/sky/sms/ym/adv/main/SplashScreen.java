@@ -14,14 +14,14 @@ public class SplashScreen extends Activity {
 	private Thread mSplashThread;
 
 	static {
-		AdManager.init("427e7f99106039d8", "d58cb9c556103e01", 30, false);
+		//AdManager.init("427e7f99106039d8", "d58cb9c556103e01", 30, false);
 	}
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.splash);
-		
+		AdManager.init(this,"427e7f99106039d8", "d58cb9c556103e01", 30, false);
 //		AdView adView = new AdView(this, Color.GRAY, Color.WHITE, 100);
 //		FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.FILL_PARENT, FrameLayout.LayoutParams.WRAP_CONTENT);
 //		params.gravity = Gravity.CENTER_VERTICAL;

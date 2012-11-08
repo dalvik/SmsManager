@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="security_type_array">
+		<item>None</item>
+		<item>SSL</item>
+		<item>SSL(Accept all certificates)</item>
+		<item>TSL</item>
+		<item>TSL(Accept all certificates)</item>
+	</string-array>
+</resources>

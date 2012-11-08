@@ -490,6 +490,9 @@ containing a value of this type.
         public static final int webcam_check_version_result_success_message_str=0x7f070082;
         public static final int webcam_check_version_result_title_str=0x7f070081;
         /**  update 
+ update 
+ update 
+ update 
          */
         public static final int webcam_check_version_str=0x7f070080;
         public static final int webcam_loading_new_cancle_str=0x7f070089;
