@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    
+	<RelativeLayout android:id="@+id/listFooter"
+		android:background="@drawable/jbshape" 
+		android:gravity="center_horizontal"
+		android:layout_alignParentBottom="true" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+			<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"     
+			android:layout_height="wrap_content"    
+			android:layout_width="fill_parent" 
+			android:layout_centerHorizontal="true"
+			android:stretchColumns="0,1,2"> 
+			
+			<TableRow> 
+	    	   	<Button  android:id="@+id/manual_create_filt_num" 
+					 android:layout_width="wrap_content"  
+		             android:layout_height="wrap_content"
+					 android:text="@string/man_create_filt"
+					 android:gravity="center"/>
+	
+		     	<Button  android:id="@+id/import_filt_form_contact" 
+				     android:layout_width="wrap_content"  
+	                 android:layout_height="wrap_content"
+	                 android:gravity="center"
+				     android:text="@string/import_filt"/>
+	
+		        <Button android:id="@+id/delete_more_filt_num" 
+		        	  android:layout_width="wrap_content"  
+	                  android:layout_height="wrap_content"
+	                  android:gravity="center"
+		              android:text="@string/more_delete"/>
+		      </TableRow> 
+		      
+		</TableLayout>
+	</RelativeLayout>
+	
+	<ListView android:id="@id/android:list"
+			  android:layout_alignParentTop="true"
+              android:layout_width="fill_parent"  
+              android:layout_height="wrap_content"
+              android:layout_above="@id/listFooter"/>  
+  
+    <TextView android:id="@id/android:empty"  
+              android:layout_width="fill_parent"  
+              android:layout_height="wrap_content"  
+              android:textColor="@color/red"
+              android:textSize="25dip"
+               android:background="@color/lightgreen"
+              android:paddingLeft="15dip"
+              android:text="null"/>  
+              
+</RelativeLayout>

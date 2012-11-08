@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+    
+	    <TextView android:layout_width="fill_parent"
+		    android:layout_alignParentTop="true"
+			android:layout_height="wrap_content"
+			android:textSize="20dip"
+			android:text="@string/modify_filt_tel_num_str"/>
+			
+	     <EditText  android:id="@+id/modify_filt_num"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:singleLine="true"
+			android:phoneNumber="true" />
+		
+    </LinearLayout>
+	 
+	<RelativeLayout android:layout_alignParentBottom="true" 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"     
+			android:layout_width="fill_parent"     
+			android:stretchColumns="0,1"
+			android:layout_centerHorizontal="true"
+			android:background="@color/lightdark"
+			android:layout_height="wrap_content"> 
+			
+			<TableRow > 
+				<Button android:id="@+id/modifyOkButton"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:text="@string/modify_filt_num_ok_button_str"/>
+
+				<Button android:id="@+id/modifyCancleButton"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:text="@string/modify_filt_tel_cancle_button_str"/>
+		      </TableRow> 
+		</TableLayout>
+	</RelativeLayout>
+	
+</RelativeLayout>

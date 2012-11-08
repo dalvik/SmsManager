@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 菜单资源 -->
+    <string name="hello">Hello World!</string>
+    <string name="app_name">信息卫士</string>
+    <string name="dialog_ok">确认</string>
+    
+     <!-- 用户登录 -->
+    <string name="login_title_str">登录</string>
+    <string name="login_message">正在为您登录，请稍等...</string>
+    <string name="login_dialog_str">登录框</string>
+    <string name="login__str">登录</string>
+    <string name="login__notify_str">登录提示</string>
+    <string name="cancle_login__str">取消</string>
+    <string name="login__notify_message_str">需要登录才能查看详情</string>
+    <string name="input_password">输入密码：</string>
+    <string name="repeat_input_password">重复密码：</string>
+    <string name="password_ret_confirm_str">确定</string>
+    <string name="password_ret_cancle_str">取消</string>
+    
+     <!--  新增 -->
+    <string name="server_starting">服务正在已启动</string>
+    <string name="server_running">服务正在运行</string>
+    <string name="down_load_title">正式版下载：</string>
+    <string name="down_load_button">知道喽</string>
+    <string name="down_load_professional_edition">
+    http://dev.10086.cn/oms/apdownloadResource.action?resourceId=10943579&amp;catalogId=21
+    </string>
+    
+    <!-- 个人设置 -->
+    <string name="person_setting_str">个人设置</string>
+    <string name="password_reset">密码重置</string>
+    <string name="password_reset_ok">恭喜！密码重置成功啦！</string>
+    <string name="password_is_null">对不起！密码不能为空！</string>
+    <string name="password_not_equal">对不起！两次密码输入不一致！</string>
+    <string name="password_set_ok">密码设置成功，请牢记！</string>
+    
+    <string name="auto_start">开机启动</string>
+    <string name="not_allow_auto_start">否</string>
+    <string name="allow_auto_start">是</string>
+    <string name="system_filt_set">过滤设置</string>
+    <string name="sms_sycn_refresh">刷新</string>
+    
+        <!-- 过滤设置 -->
+    <string name="sms_filt_all">无过滤号码，点击添加</string>
+    <string name="man_create_filt">手动创建</string>
+	    <string name="input_filt_tel_num_title">过滤列表</string>
+	    <string name="input_filt_tel_num_str">手机号码</string>
+	    <string name="input_filt_tel_cancle_button_str">取消</string>
+	    <string name="input_filt_num_ok_button_str">保存</string>
+	    <string name="input_filt_num_is_null">手机号码不符合规范</string>
+    <string name="import_filt">导入...</string>
+    	<string name="import_filt_from_contacts">从通讯录选择号码</string>
+    	<string name="constacts_no_content">通讯中暂无联系人</string>
+    	<string name="agree_import_button_str">导入</string>
+    		<string name="import_error_str">导入失败，请重试</string>
+    	<string name="cancle_import_button_str">取消</string>
+    	
+    	<string name="single_filt_num_modify">修改</string>
+	    	<string name="modify_filt_tel_num_str">修改电话号码</string>
+	    	<string name="modify_filt_num_ok_button_str">保存</string>
+	    	<string name="modify_filt_tel_cancle_button_str">取消</string>
+    	
+    	<string name="single_filt_num_delete">删除</string>
+    		<string name="single_filt_num_delete_confirm_title">确认删除</string>
+    		<string name="single_filt_num_delete_confirm_message">你确定删除吗</string>
+    		<string name="single_filt_num_yes_delete">确定</string>
+    		<string name="single_filt_num_delete_success">删除成功</string>
+    		<string name="single_filt_num_delete_error">删除失败</string>
+    		<string name="single_filt_num_no_delete">取消</string>
+    <string name="more_delete">删除多个</string>
+        <string name="delete_select_all_str">全选</string>
+        <string name="delete_no_select_all_str">取消全选</string>
+    	<string name="delete_select_str">删除</string>
+    	<string name="sms_filt_delete_no">拦截列表为空</string>
+    
+     <!-- 同步设置 -->
+    <string name="sync_setting_str">同步设置</string>
+    <string name="mail_set_str">服务设置</string>
+    <string name="send_mail_server_set_str">邮件发送服务器设置</string>
+    <string name="user_name_str">用户名</string>
+    <string name="user_password_str">密码</string>
+    <string name="receive_mail_set">接收设置</string>
+    <string name="receive_mail_set_str">邮件接收设置</string>
+    <string name="receive_mail_address_error_str">邮件接收地址格式不正确!</string>
+    <string name="system_help_str">帮助</string>
+    <string name="system_exit_str">退出</string>
+    
+     <!-- 正在同步 -->
+    <string name="email_server_not_checked_str">请验证您的邮件服务器，谢谢！</string>
+    <string name="sms_sync_dialog_title_str">信息同步</string>
+    <string name="no_select_backup_sms_str">请选择同步的短信</string>
+    <string name="sms_backup_sure_dialog_title_str">同步确认</string>
+    <string name="sms_backup_dialog_message_str">同步所选短信至邮箱？</string>
+    <string name="sure_sms_backup_str">确定</string>
+    <string name="cancle_sms_backup_str">取消</string>
+    <string name="sms_sync_dialog_message_str">正在同步信息，请稍等...</string>
+    <string name="sms_sync_error_message_str">对不起，信息同步失败</string>
+    <string name="sms_sync_success_message_str">恭喜！信息同步成功</string>
+    <string name="sms_to_email_title_str">信息同步_</string>
+    
+    <!-- 短信删除 -->
+    <string name="sms_delete_confirm">删除确认</string>
+    <string name="sms_select_delete_null">请选择删除的短信</string>
+    <string name="sms_delete_really">确定删除吗？</string>
+    <string name="sms_delete_yes">确定</string>
+    <string name="sms_delete_cancle">取消</string>
+    
+    <!-- 短信阅读 -->
+    <string name="sms_detail_dialog_title_str">信息详情：</string>
+    <string name="sms_sender_str">姓名：</string>
+    <string name="select_backup_sms_come_from_str">手机：</string>
+    <string name="sms_send_time_str">时间：</string>
+    
+         <string name="sms_send_content_str">内容：</string>
+     <string name="sms_reader_confirm_str">确定</string>
+      
+      
+    <!-- 底部菜单 -->
+    <string name="bottom_select_menu_str">全选/反选</string>
+    <string name="bottom_backup_menu_str">同步</string>
+    <string name="bottom_delete_menu_str">删除</string>
+    <string name="bottom_preference_menu_str">首选项</string>
+       
+    <!-- 长按事件菜单 -->
+    <string name="message_copy">同步</string>
+    <string name="message_del_sucess_str">条短信被删除</string>
+    <string name="message_del_fail_str">短信删除失败</string>
+    <string name="message_read">阅读</string>
+    <string name="message_recovery">恢复</string>
+    <string name="message_recovery_dialog_confirm_title_str">恢复确认</string>
+    <string name="message_recovery_confirm_message_str">确认恢复吗？</string>
+    <string name="message_recovery_confirm_str">确认</string>
+    <string name="message_recovery_cancle_str">取消</string>
+    <string name="message_recovery_success_str">恢复成功</string>
+    <string name="message_recovery_error_str">恢复失败</string>
+    <string name="message_del">删除</string>
+    
+     <!-- 测试邮件服务器 -->
+    <string name="email_connnect_test_str">正在测试邮件服务器，请稍候...</string>
+    <string name="email_connnect_test_str_success">恭喜！测试通过！</string>
+    <string name="email_connnect_test_error">对不起，测试未通过！请重试</string>
+    <string name="email_connnect_address_error">对不起，地址或密码错误</string>
+    <string name="email_connnect_cancling_str">正在取消...</string>
+    <string name="email_connnect_cancle_button_str">取消</string>
+    <string name="email_connnect_ok_button_str">确定</string>
+
+	<!-- 提示信息 -->
+	<string name="input_email_server_isnull">邮件服务器地址不能为空</string>  
+	<string name="input_email_port_isnull">邮件服务器端口不能为空</string>   
+	<string name="input_email_isnull">用户Email地址为空</string>   
+	<string name="input_isnot_email">用户Email地址不合法</string>   
+	<string name="load_error">加载错误</string>
+	<string name="system_run_error">程序运行出错，强制退出</string>
+	
+	<!-- 信息页面显示 -->
+	<string name="contacts_name_isnot_exists_str">匿名</string>   
+	<string name="sms_sync_yes_str">是</string>   
+	<string name="sms_sync_no_str">否</string>  
+	<string name="no_sms_display">目前暂时没有收到短信</string>  
+	<!-- 退出系统 -->
+	<string name="exit_system_dialog_confirm_str">确认退出</string>
+	<string name="exit_system_confirm_str">确定退出吗？</string>
+	<string name="confirm_exit_system_str">确定</string>
+	<string name="cancle_exit_system_str">取消</string>
+	
+    <!-- 使用说明 -->
+    <string name="use_guide_title">信息卫士使用说明</string>
+    <string name="use_guide_header">欢迎使用信息卫士广告版V11.5.102</string>
+    <string name="user_guide_body_index">
+          \n在为个人隐私不受尊重而苦恼吗？
+          \n在担心她(他)看到她(他)的短信而惴惴不安吗？
+          \n在为手机忘记带在身边而担心短信息泄密吗？
+          \n在为手机的信息存储空间不足时不得不删除自己保存许久的短信息而感到惋惜吗？
+          \n\n\t以上烦恼手机信息卫士统统帮您解决，帮助您将信息隐私外泄的危险拒之“门”外，让您在工作、学习和生活中少点儿郁闷、忧伤，多点儿幸福、甜美！
+    </string>
+    <string name="user_guide_help_directory">\n帮助目录：</string>
+	<string name="user_guide_help_content_function_notes_title">\nⅠ、功能简介</string>
+	<string name="user_guide_help_content_function_notes_explication">\n\t本应用主要是为保护用户的信息隐私而服务的。因此：</string>
+	<string name="user_guide_help_content_function_notes_content">
+		  \tA、您必须首先设定密码并成功设置之后才能继续进行其他操作。
+		  \n\tB、您可以手工添加拦截短信的电话号码，也可以从通讯录中批量导入。
+		  \n\tC、您可以阅读信息、恢复信息到收件箱和删除已拦截的信息。
+		  \n\tD、您还可以将已拦截到的信息同步到您指定的邮箱，以做长久的备份。
+		  \n\tE、您也可以设定接收备份信息的邮箱地址。
+		  \n\tF、您也可以设置开机启动本应用。
+		  \n\tG、您还可以修改登录密码。
+	</string>
+	<string name="user_guide_help_content_unique">\tH、利用您的邮箱存储您的私人信息是本应用的一大亮点。</string>
+	<string name="user_guide_help_content_function_explication_title">\nⅡ、使用说明</string>
+	<string name="user_guide_help_content_function_explication_login">\n1、用户登录</string>
+	<string name="user_guide_help_content_function_explication_login_content">
+		  \n\t系统安装后首次运行时，系统会提示用户输入密码和确认密码，输入完成并经系统检查通过之后跳转到成功登录界面，
+		     然后用户方可进行系统设置和查看信息等一系列的操作。请务必牢记您输入的密码，这是您登录系统的唯一凭证。
+    </string>
+    <string name="user_guide_help_content_function_explication_select">\n2、全选/反选</string>
+	<string name="user_guide_help_content_function_explication_select_content">
+		\n\t全选/反选是方便您在进行批量同步或者删除而设置的快捷操作，从而帮您节约时间，提高效率。
+	</string>
+	<string name="user_guide_help_content_function_explication_backup">\n3、同步</string>
+	<string name="user_guide_help_content_function_explication_backup_content">	  
+		 \n\t同步操作是将您选择的信息同步到您预先设定的接收邮箱中，如果没有设定接收邮箱，则系统会自动选择您的测试邮件地址作为接收同步信息的邮件地址。
+		  需要注意的是，您在进行同步操作之前，请确保系统已经通过邮件服务测试。否则无法进行同步操作。
+		  如何经行邮件测试，请看首选项中有关邮件服务器测试的说明。
+	</string>
+	<string name="user_guide_help_content_function_explication_delete">\n4、删除</string>	           
+	<string name="user_guide_help_content_function_explication_delete_content">\n\t删除操作是将拦截到的信息从列表中删除。</string>
+	<string name="user_guide_help_content_function_explication_preference">\n5、首选项</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one">\n㈠、个人设置</string>	  
+	<string name="user_guide_help_content_function_explication_preference_content_one_sms_filt">\na、信息过滤</string>
+    <string name="user_guide_help_content_function_explication_preference_content_one_sms_filt_content">	
+		   	\n\t在此项操作中，您可以添加特定的电话号码作为过滤信息的条件，您也可以删除此号码。如果您没有添加任何号码，则表示不做信息拦截。
+    </string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_autostart">\nb、开机启动</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_autostart_content">
+			\n\t启用开机启动可以省去了每次手动启动系统的麻烦，并能及时保护您的个人信息隐私和信息安全。
+	</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_changepwd">\nc、更改密码</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_changepwd_content">
+			\n\t用户登录成功后，可以随时修改登录密码，方便用户操作。
+	</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_refresh">\nd、刷新</string>
+	<string name="user_guide_help_content_function_explication_preference_content_one_refresh_content">
+		   	\n\t本应用具有自动刷新功能。如果用户想及时查看系统已拦截的信息，可以进行刷新操作。
+	</string>
+	<string name="user_guide_help_content_function_explication_preference_content_two">\n㈡、同步设置</string>
+	<string name="user_guide_help_content_function_explication_preference_content_sendemailset">\na、邮件服务设置</string>
+	<string name="user_guide_help_content_function_explication_preference_content_sendemailset_content">
+		   	\n\t邮件服务设置是本应用中一个重要环节。您只有正确填写邮件服务信息并且通过邮件服务器验证之后，才能进行信息的备份。
+		   	\n\t本应用主要采用简单邮件传输协议，所以您：
+		   	\n\t首先，正确填写SMTP服务器的地址
+		   	\n\t然后，输入此邮件服务器的端口号
+		   	\n\t其次，选择安全类型
+		   	\n\t再次，填写测试的邮件账户和密码
+		   	\n\t最后，点击下一步按钮验证正确性。
+		   	\n\t至此，您已经完成了邮件服务测试。
+		   	\n\t如果系统提示您已经通过测试的话，接下来您就可以进行将信息同步至邮箱的操作啦！否则，您需要检查输入信息的正确性，重新测试。（注意：保证手机良好的网络连通性）
+			\n\n下面就以Google的邮件服务测试为例：
+			\n\n⑴、输入Google发送邮件服务器的地址：smtp.gmail.com。
+			\n⑵、填写Google发送邮件服务器的端口号：465
+			\n⑶、选择安全类型：SSL
+			\n⑷、输入邮箱账号：***@gmail.com
+			\n⑸、输入邮箱密码：*********
+			\n⑹、点击下一步
+			\n⑺、恭喜！测试通过！
+	 </string>
+	 <string name="user_guide_help_content_function_explication_preference_content_receiveemailset">\nb、邮件接收设置</string>
+	 <string name="user_guide_help_content_function_explication_preference_content_receiveemailset_content">
+	 	   	\n\t此处需要您正确填写接收备份信息的邮箱地址。如果您没有填写的话，系统会默认选择您的测试邮件地址作为接收备份信息的地址。
+	 </string>
+	 <string name="user_guide_help_content_function_explication_preference_content_help">\nc、帮助</string>
+	 <string name="user_guide_help_content_function_explication_preference_content_help_content">
+	 		\n\t当您在使用本应用时，如果发现问题或者有疑问的话，可以参看信息卫士使用说明，也可以根据本页底部的联系方式将问题反映至作者本人，谢谢！
+	 </string>
+	 <string name="user_guide_help_content_function_explication_preference_content_exit">\nd、退出</string>
+	 <string name="user_guide_help_content_function_explication_preference_content_exit_content">
+		   	\n\t当您不需要进行信息拦截时，您可以直接、快速的退出本系统，从而释放系统占用的资源。
+	 </string>
+	  <string name="user_guide_help_language_type_title">\nⅢ、语言支持</string>
+	 <string name="user_guide_help_language_type_content">\n本应用支持中文、英文、日文等多国语言。</string>
+	 <string name="user_guide_help_about_me">\nⅣ、关于信息卫士</string>  	
+	 
+	  <string name="user_guide_help_about_me_content">
+		\n信息卫士Android广告版V11.5.102\n
+		\n博客：http://blog.sina.com/dalvik\n
+		\nMSN：dalvik@live.cn\n
+		\n邮箱：steersgman@gmail.com\n
+		\nQ Q：513518064
+	</string>
+	<string name="user_guide_help_copyright">
+		\n\nCopyRight (c) Love All Rights Reserved
+	</string>
+    
+</resources>
