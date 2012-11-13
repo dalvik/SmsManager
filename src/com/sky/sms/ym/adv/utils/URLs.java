@@ -1,7 +1,7 @@
 package com.sky.sms.ym.adv.utils;
 
 public class URLs {
-	public final static String HOST = "dalvik.co.cc";
+	public final static String HOST = "www.drovik.com";
 	public final static String HTTP = "http://";
 	public final static String HTTPS = "https://";
 	
